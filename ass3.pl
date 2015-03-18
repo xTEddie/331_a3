@@ -3,6 +3,8 @@ state(init).
 state(idle).
 state(monitoring).
 
+event(kill).
+
 initial_state(dormant).
 
 state(error_diagnosis).
