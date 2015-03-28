@@ -1,3 +1,4 @@
+%% Superstates
 state(dormant).
 state(init).
 state(idle).
@@ -22,6 +23,12 @@ event(begin_monitoring).
 event(monitor_crash). 
 event(monitor_rescue).
 
+event(boot_hw).
+event(senchk).
+event(tchk).
+event(psichk).
+event(ready).
+
 %% transition(source_state, target_state, event, guard, action).
 transition(dormant, init, start, null, null).
 transition(init, error_diagnosis, init_crash, null, 'init_error_msg').
@@ -34,6 +41,11 @@ transition(error_diagnosis, idle, idle_rescue, null, null).
 transition(idle, monitoring, begin_monitoring, null, null).
 transition(monitoring, error_diagnosis, monitor_crash, null, 'moni_err_msg').
 transition(error_diagnosis, monitoring, monitor_rescue, null, null).
+
+transition(boot_hw, senchk, hw_ok, null, null).
+transition(senchk, tchk, senok, null, null).
+transition(tchk, psichk, t_ok, null, null).
+transition(psichk, ready, psi_ok, null, null).
 
 
 
