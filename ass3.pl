@@ -1,12 +1,9 @@
-%% Superstates
 state(dormant).
 state(init).
 state(idle).
 state(monitoring).
 
 event(kill).
-
-initial_state(dormant).
 
 state(error_diagnosis).
 state(safe_shutdown).
@@ -30,6 +27,32 @@ state(safe_status).
 state(error_rcv).
 state(applicable_rescue).
 state(reset_module_data).
+
+%%initial_state(S1, S2) : S1 is initial state of S2
+initial_state(dormant, efsm).
+initial_state(boot_hw, init).
+initial_state(monidle, monitoring).
+initial_state(error_rcv, error_diagnosis).
+initial_state(prep_vpurge, lockdown).
+
+%%superstate(S1, S2) : S1 is superstate of S2
+superstate(init, boot_hw).
+superstate(init, senchk).
+superstate(init, tchk).
+superstate(init, psichk).
+superstate(init, ready).
+superstate(error_diagnosis, error_rcv).
+superstate(error_diagnosis, applicable_rescue).
+superstate(error_diagnosis, reset_module_data).
+superstate(monitoring, monidle).
+superstate(monitoring, regulate_environment).
+superstate(monitoring, lockdown).
+superstate(lockdown, prep_vpurge).
+superstate(lockdown, alt_temp).
+superstate(lockdown, alt_psi).
+superstate(lockdown, risk_assess).
+superstate(lockdown, safe_status).
+
 
 event(start).
 event(init_ok).
@@ -96,8 +119,11 @@ transition(error_rcv, applicable_rescue, apply_protocol_rescues, 'err_protocol_d
 transition(error_rcv, reset_module_data, reset_to_stable, 'error_protocol_def = false', null).
 
 
-
-
-
-
-
+%% Part VI
+is_loop(Event, Guard) :- transition(State, State, Event, Guard, _).
+all_superstates(Set) :- findall(Superstate, superstate(Superstate, _), List), list_to_set(List, Set).
+all_states(L) :- findall(State, state(State), L).
+all_init_states(L) :- findall(InitState, initial_state(InitState, _), L).
+get_guards(Set) :- findall(Guard, transition(_, _, _, Guard, _), List), list_to_set(List, Set).
+get_events(Set) :- findall(Event, transition(_, _, Event, _, _), List), list_to_set(List, Set).
+get_actions(Set) :- findall(Action, transition(_, _, _, _, Action), List), list_to_set(List, Set).
