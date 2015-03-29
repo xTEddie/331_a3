@@ -97,7 +97,7 @@ transition(init, error_diagnosis, init_crash, null, 'init_error_msg').
 transition(error_diagnosis, init, retry_init, 'retry < 3', 'increment retry').
 transition(error_diagnosis, safe_shutdown, shutdown, 'retry >= 3', null).
 transition(safe_shutdown, dormant, sleep, null, 'retry = 0').
-transition(init, idle, init_ok, null, null);
+transition(init, idle, init_ok, null, null).
 transition(idle, error_diagnosis, idle_crash, null, 'idle_err_msg').
 transition(error_diagnosis, idle, idle_rescue, null, null).
 transition(idle, monitoring, begin_monitoring, null, null).
@@ -108,7 +108,7 @@ transition(boot_hw, senchk, hw_ok, null, null).
 transition(senchk, tchk, senok, null, null).
 transition(tchk, psichk, t_ok, null, null).
 transition(psichk, ready, psi_ok, null, null).
-transition(monidle, regulate_environment, no_contagion, 'received no contagion', null)
+transition(monidle, regulate_environment, no_contagion, 'received no contagion', null).
 transition(regulate_environment, monidle, after_100ms, null, null).
 transition(monidle, lockdown, contagion_alert, null, 'FACILITY_CRIT_MSG, inlockdown = true').
 transition(lockdown, lockdown, null, 'inlockdown = true', null).
@@ -123,26 +123,3 @@ transition(risk_assess, safe_status, null, 'risk < 1%', 'unlock_doors').
 
 transition(error_rcv, applicable_rescue, apply_protocol_rescues, 'err_protocol_def = true', null).
 transition(error_rcv, reset_module_data, reset_to_stable, 'error_protocol_def = false', null).
-
-
-%% Part VI
-is_loop(Event, Guard) :- transition(State, State, Event, Guard, _).
-all_loops(Set) :- findall((Event,Guard), transition(State, State, Event, Guard, _), List), list_to_set(List, Set). 
-is_edge(Event, Guard) :- transition(_, _ , Event, Guard , _).
-size(Length) :- findall(Event, is_edge(Event, _), List), length(List, Length). 
-is_link(Event, Guard) :- transition(S1, S2 , Event, Guard , _), S1 \== S2.
-all_superstates(Set) :- findall(Superstate, superstate(Superstate, _), List), list_to_set(List, Set).
-ancestor(Ancestor, Descendant) :- superstate(Ancestor, Descendant).
-
-inherits_transitions(State, List) :- findall((State, S, Event, Guard, Action), transition(State, S, Event, Guard, Action), List). %% wrong
-
-all_states(L) :- findall(State, state(State), L).
-all_init_states(L) :- findall(InitState, initial_state(InitState, _), L).
-%% get_starting_state(State) 
-state_is_reflexive(State) :- transition(State, State, _, _, _). %%
-%%graph_is_reflexive
-get_guards(Set) :- findall(Guard, transition(_, _, _, Guard, _), List), list_to_set(List, Set).
-get_events(Set) :- findall(Event, transition(_, _, Event, _, _), List), list_to_set(List, Set).
-get_actions(Set) :- findall(Action, transition(_, _, _, _, Action), List), list_to_set(List, Set).
-get_only_guarded(Ret) :- findall((S1, S2), transition(S1, S2, _, _, Guard), Ret), Guard \== null. 
-legal_events_of(State, L) :- findall((Event,Guard), (transition(State, _, Event, Guard, _);transition(_, State, Event, Guard, _)), L). 
