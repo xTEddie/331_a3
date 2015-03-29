@@ -1,35 +1,43 @@
+%% Author: Edward Tran & Peter Boulos
+
+%% Facts
+
+%% Top-level states
 state(dormant).
 state(init).
-state(idle).
 state(monitoring).
-
-event(kill).
-
+state(lockdown).
 state(error_diagnosis).
+
+%%
+state(idle).
 state(safe_shutdown).
 
+%% States under init state
 state(boot_hw).
 state(senchk).
 state(tchk).
 state(psichk).
 state(ready).
 
+%% States under monitoring state
 state(monidle).
 state(regulate_environment).
-state(lockdown).
 
+%% States under lockdown state
 state(prep_vpurge).
 state(alt_temp).
 state(alt_psi).
 state(risk_assess).
 state(safe_status).
 
+%% States under error_diagnosis state
 state(error_rcv).
 state(applicable_rescue).
 state(reset_module_data).
 
-%%initial_state(S1, S2) : S1 is initial state of S2
-initial_state(dormant, efsm).
+%% initial_state(S1, S2) : S1 is initial state of S2
+initial_state(dormant, null).
 initial_state(boot_hw, init).
 initial_state(monidle, monitoring).
 initial_state(error_rcv, error_diagnosis).
@@ -54,6 +62,7 @@ superstate(lockdown, risk_assess).
 superstate(lockdown, safe_status).
 
 
+event(kill).
 event(start).
 event(init_ok).
 event(init_crash). 
@@ -64,7 +73,7 @@ event(idle_crash).
 event(idle_rescue).
 event(begin_monitoring).
 event(monitor_crash). 
-event(monitor_rescue).
+event(moni_rescue).
 
 event(hw_ok).
 event(senok).
@@ -86,15 +95,15 @@ event(reset_to_stable).
 %% transition(source_state, target_state, event, guard, action).
 transition(dormant, init, start, null, null).
 transition(init, error_diagnosis, init_crash, null, 'init_error_msg').
-transition(error_diagnosis, init, retry_init, '[if retry does not exceed 3]', 'increment retry').
-transition(error_diagnosis, safe_shutdown, shutdown, 'if retry is 3', null).
-transition(safe_shutdown, dormant, sleep, null, null).
+transition(error_diagnosis, init, retry_init, 'return < 3', 'increment retry').
+transition(error_diagnosis, safe_shutdown, shutdown, 'retry >= 3', null).
+transition(safe_shutdown, dormant, sleep, null, 'retry = 0').
 transition(init, idle, init_ok, null, null);
 transition(idle, error_diagnosis, idle_crash, null, 'idle_err_msg').
 transition(error_diagnosis, idle, idle_rescue, null, null).
 transition(idle, monitoring, begin_monitoring, null, null).
-transition(monitoring, error_diagnosis, monitor_crash, null, 'moni_err_msg').
-transition(error_diagnosis, monitoring, monitor_rescue, null, null).
+transition(monitoring, error_diagnosis, monitor_crash, 'inlockdown = false', 'moni_err_msg').
+transition(error_diagnosis, monitoring, moni_rescue, null, null).
 
 transition(boot_hw, senchk, hw_ok, null, null).
 transition(senchk, tchk, senok, null, null).
@@ -103,8 +112,7 @@ transition(psichk, ready, psi_ok, null, null).
 
 transition(monidle, regulate_environment, no_contagion, 'received no contagion', null).
 transition(regulate_environment, monidle, after_100ms, null, null).
-transition(monidle, lockdown, contagion_alert, null, 'FACILITY_CRIT_MSG').
-transition(monidle, lockdown, contagion_alert, null, 'inlockdown = true').
+transition(monidle, lockdown, contagion_alert, null, 'FACILITY_CRIT_MSG, inlockdown = true').
 transition(lockdown, lockdown, null, 'inlockdown = true', null).
 transition(lockdown, monidle, purge_succ, null, 'inlockdown = false').
 
@@ -121,6 +129,7 @@ transition(error_rcv, reset_module_data, reset_to_stable, 'error_protocol_def = 
 
 %% Part VI
 is_loop(Event, Guard) :- transition(State, State, Event, Guard, _).
+ancestor(Ancestor, Descendant) :- superstate(Ancestor, Descendant).
 all_superstates(Set) :- findall(Superstate, superstate(Superstate, _), List), list_to_set(List, Set).
 all_states(L) :- findall(State, state(State), L).
 all_init_states(L) :- findall(InitState, initial_state(InitState, _), L).
