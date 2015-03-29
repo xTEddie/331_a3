@@ -109,8 +109,7 @@ transition(boot_hw, senchk, hw_ok, null, null).
 transition(senchk, tchk, senok, null, null).
 transition(tchk, psichk, t_ok, null, null).
 transition(psichk, ready, psi_ok, null, null).
-
-transition(monidle, regulate_environment, no_contagion, 'received no contagion', null).
+transition(monidle, regulate_environment, no_contagion, 'received no contagion', null)
 transition(regulate_environment, monidle, after_100ms, null, null).
 transition(monidle, lockdown, contagion_alert, null, 'FACILITY_CRIT_MSG, inlockdown = true').
 transition(lockdown, lockdown, null, 'inlockdown = true', null).
@@ -128,8 +127,13 @@ transition(error_rcv, reset_module_data, reset_to_stable, 'error_protocol_def = 
 
 
 %% Part VI
-is_loop(Event, Guard) :- transition(State, State, Event, Guard, _).
+is_loop(Event, Guard) :- transition(State, State, Event, Guard, _). %%
+all_loops(Set) :- findall(State, transition(State, State, _, _, _), List), list_to_set(List, Set). %% 
+is_edge(Event, Guard) :- transition(Event, _ , _ , Guard , _) ; transition(_, _ , Event, Guard, _). %%
+size(Length) :- findall(Event, is_edge(Event, _), List), length(List, Length). %%
+is_link(Event, Guard) :- is_edge(Event, Guard). %%
 ancestor(Ancestor, Descendant) :- superstate(Ancestor, Descendant).
+
 all_superstates(Set) :- findall(Superstate, superstate(Superstate, _), List), list_to_set(List, Set).
 all_states(L) :- findall(State, state(State), L).
 all_init_states(L) :- findall(InitState, initial_state(InitState, _), L).
