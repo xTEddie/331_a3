@@ -61,7 +61,6 @@ superstate(lockdown, alt_psi).
 superstate(lockdown, risk_assess).
 superstate(lockdown, safe_status).
 
-
 event(kill).
 event(start).
 event(init_ok).
@@ -95,7 +94,7 @@ event(reset_to_stable).
 %% transition(source_state, target_state, event, guard, action).
 transition(dormant, init, start, null, null).
 transition(init, error_diagnosis, init_crash, null, 'init_error_msg').
-transition(error_diagnosis, init, retry_init, 'return < 3', 'increment retry').
+transition(error_diagnosis, init, retry_init, 'retry < 3', 'increment retry').
 transition(error_diagnosis, safe_shutdown, shutdown, 'retry >= 3', null).
 transition(safe_shutdown, dormant, sleep, null, 'retry = 0').
 transition(init, idle, init_ok, null, null);
@@ -127,16 +126,23 @@ transition(error_rcv, reset_module_data, reset_to_stable, 'error_protocol_def = 
 
 
 %% Part VI
-is_loop(Event, Guard) :- transition(State, State, Event, Guard, _). %%
-all_loops(Set) :- findall(State, transition(State, State, _, _, _), List), list_to_set(List, Set). %% 
-is_edge(Event, Guard) :- transition(Event, _ , _ , Guard , _) ; transition(_, _ , Event, Guard, _). %%
-size(Length) :- findall(Event, is_edge(Event, _), List), length(List, Length). %%
-is_link(Event, Guard) :- is_edge(Event, Guard). %%
+is_loop(Event, Guard) :- transition(State, State, Event, Guard, _).
+all_loops(Set) :- findall((Event,Guard), transition(State, State, Event, Guard, _), List), list_to_set(List, Set). 
+is_edge(Event, Guard) :- transition(_, _ , Event, Guard , _).
+size(Length) :- findall(Event, is_edge(Event, _), List), length(List, Length). 
+is_link(Event, Guard) :- transition(S1, S2 , Event, Guard , _), S1 \== S2.
+all_superstates(Set) :- findall(Superstate, superstate(Superstate, _), List), list_to_set(List, Set).
 ancestor(Ancestor, Descendant) :- superstate(Ancestor, Descendant).
 
-all_superstates(Set) :- findall(Superstate, superstate(Superstate, _), List), list_to_set(List, Set).
+inherits_transitions(State, List) :- findall((State, S, Event, Guard, Action), transition(State, S, Event, Guard, Action), List). %% wrong
+
 all_states(L) :- findall(State, state(State), L).
 all_init_states(L) :- findall(InitState, initial_state(InitState, _), L).
+%% get_starting_state(State) 
+state_is_reflexive(State) :- transition(State, State, _, _, _). %%
+%%graph_is_reflexive
 get_guards(Set) :- findall(Guard, transition(_, _, _, Guard, _), List), list_to_set(List, Set).
 get_events(Set) :- findall(Event, transition(_, _, Event, _, _), List), list_to_set(List, Set).
 get_actions(Set) :- findall(Action, transition(_, _, _, _, Action), List), list_to_set(List, Set).
+get_only_guarded(Ret) :- findall((S1, S2), transition(S1, S2, _, _, Guard), Ret), Guard \== null. 
+legal_events_of(State, L) :- findall((Event,Guard), (transition(State, _, Event, Guard, _);transition(_, State, Event, Guard, _)), L). 
