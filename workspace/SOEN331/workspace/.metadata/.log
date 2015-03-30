@@ -168,89 +168,1862 @@ Tool registry contents:
  - CREATE_BPMNSENDTASK Palette Entry (Send)
 
 
-!ENTRY org.modelio.core 1 0 2015-03-17 23:49:55.575
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:14.466
 !MESSAGE Creating 'Validate diagram elements move' transaction.
 
-!ENTRY org.modelio.core 1 0 2015-03-17 23:49:55.617
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:14.511
 !MESSAGE Committing 'Validate diagram elements move' transaction.
 
-!ENTRY org.modelio.core 1 0 2015-03-17 23:49:56.040
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:15.895
 !MESSAGE Creating 'Validate diagram elements move' transaction.
 
-!ENTRY org.modelio.core 1 0 2015-03-17 23:49:56.061
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:15.927
 !MESSAGE Committing 'Validate diagram elements move' transaction.
 
-!ENTRY org.modelio.core 1 0 2015-03-17 23:49:59.632
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:16.171
 !MESSAGE Creating 'Validate diagram elements move' transaction.
 
-!ENTRY org.modelio.core 1 0 2015-03-17 23:49:59.656
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:16.211
 !MESSAGE Committing 'Validate diagram elements move' transaction.
 
-!ENTRY org.modelio.core 1 0 2015-03-17 23:50:01.420
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:16.348
 !MESSAGE Creating 'Validate diagram elements move' transaction.
 
-!ENTRY org.modelio.core 1 0 2015-03-17 23:50:01.446
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:16.371
 !MESSAGE Committing 'Validate diagram elements move' transaction.
 
-!ENTRY org.modelio.core 1 0 2015-03-17 23:50:06.523
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:16.496
 !MESSAGE Creating 'Validate diagram elements move' transaction.
 
-!ENTRY org.modelio.core 1 0 2015-03-17 23:50:06.540
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:16.519
 !MESSAGE Committing 'Validate diagram elements move' transaction.
-!SESSION 2015-03-18 02:22:08.070 -----------------------------------------------
-eclipse.buildId=unknown
-java.version=1.7.0_07
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
-Framework arguments:  C:\Users\Eddie\modelio\workspace\SOEN331\SOEN331.ofpx
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\Eddie\modelio\workspace\SOEN331\SOEN331.ofpx
 
-!ENTRY org.modelio.core 1 0 2015-03-18 02:22:09.368
-!MESSAGE Loading LibModelio.
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:16.629
+!MESSAGE Creating 'Validate diagram elements move' transaction.
 
-!ENTRY org.modelio.core 1 0 2015-03-18 02:22:09.422
-!MESSAGE LibModelio loaded successfully.
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:16.655
+!MESSAGE Committing 'Validate diagram elements move' transaction.
 
-!ENTRY org.modelio.core 1 0 2015-03-18 02:22:09.550
-!MESSAGE Modelio core successfully started.
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:16.767
+!MESSAGE Creating 'Validate diagram elements move' transaction.
 
-!ENTRY org.eclipse.ui 4 4 2015-03-18 02:22:09.718
-!MESSAGE Unable to create menu item "com.modeliosoft.modelio.app.OpenStoreID", command "com.modeliosoft.modelio.app.enterprise.OpenStoreID" not defined
-!SESSION 2015-03-18 02:22:10.221 -----------------------------------------------
-eclipse.buildId=unknown
-java.version=1.7.0_07
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
-Framework arguments:  C:\Users\Eddie\modelio\workspace\SOEN331\SOEN331.ofpx
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\Eddie\modelio\workspace\SOEN331\SOEN331.ofpx
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:16.792
+!MESSAGE Committing 'Validate diagram elements move' transaction.
 
-!ENTRY org.modelio.core 1 0 2015-03-18 02:22:11.682
-!MESSAGE Loading LibModelio.
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:18.979
+!MESSAGE Creating 'Validate diagram elements move' transaction.
 
-!ENTRY org.modelio.core 1 0 2015-03-18 02:22:11.701
-!MESSAGE LibModelio loaded successfully.
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:19.004
+!MESSAGE Committing 'Validate diagram elements move' transaction.
 
-!ENTRY org.modelio.core 1 0 2015-03-18 02:22:11.830
-!MESSAGE Modelio core successfully started.
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:20.018
+!MESSAGE Creating 'Validate diagram elements move' transaction.
 
-!ENTRY org.eclipse.ui 4 4 2015-03-18 02:22:12.002
-!MESSAGE Unable to create menu item "com.modeliosoft.modelio.app.OpenStoreID", command "com.modeliosoft.modelio.app.enterprise.OpenStoreID" not defined
-!SESSION 2015-03-19 10:24:03.550 -----------------------------------------------
-eclipse.buildId=unknown
-java.version=1.7.0_07
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
-Framework arguments:  C:\Users\Eddie\modelio\workspace\SOEN331\SOEN331.ofpx
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\Eddie\modelio\workspace\SOEN331\SOEN331.ofpx
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:20.044
+!MESSAGE Committing 'Validate diagram elements move' transaction.
 
-!ENTRY org.modelio.core 1 0 2015-03-19 10:24:05.850
-!MESSAGE Loading LibModelio.
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:28.775
+!MESSAGE Creating 'Validate diagram elements move' transaction.
 
-!ENTRY org.modelio.core 1 0 2015-03-19 10:24:05.936
-!MESSAGE LibModelio loaded successfully.
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:28.800
+!MESSAGE Committing 'Validate diagram elements move' transaction.
 
-!ENTRY org.modelio.core 1 0 2015-03-19 10:24:06.145
-!MESSAGE Modelio core successfully started.
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:29.204
+!MESSAGE Creating 'Validate diagram elements move' transaction.
 
-!ENTRY org.eclipse.ui 4 4 2015-03-19 10:24:06.312
-!MESSAGE Unable to create menu item "com.modeliosoft.modelio.app.OpenStoreID", command "com.modeliosoft.modelio.app.enterprise.OpenStoreID" not defined
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:29.225
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:29.381
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:29.393
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:29.815
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:29.833
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:32.875
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:32.896
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:35.821
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:35.842
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:38.404
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:38.424
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:39.327
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:39.347
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:39.471
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:39.477
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:39.615
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:39.636
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:39.763
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:39.781
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:40.162
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:40.180
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:40.313
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:40.319
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:40.443
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:40.468
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:40.586
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:40.606
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:40.714
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:40.721
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:40.853
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:40.876
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:41.000
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:41.019
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:48.097
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:48.118
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:54.364
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:46:54.405
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:04.941
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:04.960
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:08.014
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:08.036
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:10.563
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:10.582
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:10.896
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:10.916
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:11.161
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:11.177
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:11.335
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:11.356
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:13.987
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:14.007
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:18.200
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:18.220
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:20.753
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:20.773
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:21.146
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:21.162
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:21.329
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:21.371
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:21.915
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:21.934
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:23.557
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:23.576
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:24.037
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:24.056
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:25.579
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:25.586
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:28.519
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:28.541
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:30.268
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:30.287
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:30.905
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:30.921
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:31.200
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:31.216
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:33.402
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:33.419
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:43.550
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:43.558
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:43.911
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:43.927
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:44.073
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:44.093
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:47.235
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:47.255
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:47.384
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:47.403
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:47.529
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:47.549
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:47.673
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:47.693
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:48.042
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:48.052
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:48.190
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:48.210
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:48.332
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:48.345
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:48.475
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:48.481
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:48.914
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:48.934
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:49.431
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:49.782
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:49.903
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:49.924
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:50.268
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:50.287
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:51.818
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:51.839
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:52.091
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:52.114
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:52.329
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:52.350
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:52.565
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:52.585
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:55.730
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:55.750
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:57.798
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:57.834
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:59.740
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:59.761
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:59.879
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:47:59.899
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:00.025
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:00.045
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:00.157
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:00.177
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:00.291
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:00.297
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:00.436
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:00.455
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:00.573
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:00.593
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:00.701
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:00.721
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:00.840
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:00.859
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:00.972
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:00.992
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:01.120
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:01.140
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:01.568
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:01.588
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:01.814
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:01.834
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:02.907
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:02.927
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:05.855
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:05.875
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:08.560
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:08.572
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:12.134
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:12.156
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:12.553
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:12.573
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:12.690
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:12.698
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:12.829
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:12.848
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:16.308
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:16.317
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:19.834
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:19.856
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:22.833
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:22.883
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:26.861
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:26.882
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:28.990
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:29.011
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:32.714
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:32.735
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:35.551
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:35.559
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:35.872
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:35.891
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:36.039
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:36.060
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:36.181
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:36.195
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:36.320
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:36.341
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:36.466
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:36.473
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:36.605
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:36.625
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:36.738
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:36.759
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:36.870
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:36.876
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:36.999
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:37.020
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:37.270
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:37.291
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:37.432
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:37.449
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:38.827
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:38.848
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:38.976
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:38.997
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:39.110
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:39.130
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:39.249
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:39.270
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:39.391
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:39.405
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:39.525
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:39.546
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:39.662
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:39.670
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:39.801
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:39.819
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:39.939
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:39.960
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:40.080
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:40.090
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:40.224
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:40.245
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:40.367
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:40.387
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:40.510
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:40.531
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:40.657
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:40.678
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:40.805
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:40.826
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:40.953
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:40.974
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:41.105
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:41.127
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:41.721
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:41.740
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:42.169
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:48:42.188
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:17.592
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:17.616
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:23.596
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:23.620
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:24.039
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:24.064
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:24.571
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:24.592
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:24.732
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:24.742
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:25.058
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:25.083
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:25.467
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:25.489
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:25.930
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:25.951
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:26.318
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:26.339
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:32.502
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:32.522
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:33.270
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:33.290
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:33.442
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:33.463
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:33.649
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:33.672
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:33.851
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:33.871
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:42.919
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:42.940
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:50.802
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:50.830
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:55.698
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:55.718
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:58.713
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:58.734
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:59.240
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:49:59.261
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:02.089
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:02.109
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:14.965
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:14.986
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:17.486
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:17.503
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:25.746
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:25.754
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:28.467
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:28.488
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:40.280
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:40.300
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:42.409
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:42.431
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:47.856
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:47.878
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:50.145
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:50.166
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:53.701
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:53.800
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:54.226
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:54.249
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:54.462
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:54.485
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:54.761
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:54.786
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:54.999
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:55.024
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:56.632
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:56.654
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:56.789
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:56.811
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:56.931
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:56.951
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:57.061
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:57.068
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:57.200
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:57.218
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:57.678
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:50:57.704
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:51:36.678
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:51:36.702
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:51:40.940
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:51:40.960
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:51:48.809
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:51:48.851
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:51:51.453
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:51:51.472
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:51:55.579
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:51:55.603
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:51:59.877
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:51:59.934
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:05.076
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:05.102
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:05.514
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:05.537
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:08.272
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:08.295
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:10.390
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:10.420
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:10.797
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:10.822
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:13.414
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:13.443
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:15.777
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:15.815
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:16.591
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:16.606
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:16.803
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:16.826
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:16.957
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:16.974
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:17.100
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:17.115
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:17.232
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:17.249
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:17.370
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:17.387
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:17.503
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:17.521
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:18.173
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:18.189
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:21.121
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:21.127
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:22.323
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:22.338
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:22.467
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:22.484
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:22.851
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:22.867
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:22.997
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:23.003
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:23.141
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:23.158
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:23.284
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:23.301
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:23.422
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:23.438
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:23.560
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:23.576
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:23.697
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:23.717
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:23.834
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:23.839
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:23.988
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:24.004
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:27.244
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:27.262
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:29.042
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:29.059
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:30.827
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:30.844
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:31.123
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:31.140
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:31.339
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:31.356
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:31.792
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:31.809
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:31.900
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:31.914
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:33.781
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:33.798
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:39.029
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:39.046
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:40.118
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:40.135
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:41.183
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:41.201
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:42.961
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:42.978
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:43.581
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:43.597
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:43.985
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:44.002
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:47.503
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:47.530
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:47.644
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:47.661
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:47.772
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:47.789
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:47.894
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:47.900
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:48.035
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:48.050
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:48.247
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:48.264
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:51.920
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:51.937
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:52.725
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:52.744
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:52.874
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:52.881
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:53.016
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:53.045
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:55.336
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:55.353
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:58.347
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:52:58.362
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:53:11.616
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:53:11.633
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:53:21.236
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:53:21.246
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:53:27.125
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:53:27.135
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:53:31.483
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:53:31.500
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:53:35.022
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:53:35.039
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:53:38.191
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:53:38.208
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:53:42.818
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:53:42.826
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:53:49.859
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:53:49.877
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:53:52.222
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:53:52.239
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:54:05.395
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:54:05.438
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:54:11.747
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:54:11.765
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:54:15.051
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:54:15.069
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:54:16.742
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:54:16.759
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:54:18.687
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:54:18.702
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:54:25.480
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:54:25.507
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:54:43.791
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:54:43.810
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:15.912
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:15.932
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:21.040
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:21.056
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:25.239
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:25.256
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:32.669
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:32.688
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:33.501
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:33.508
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:33.697
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:33.714
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:33.853
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:33.860
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:34.040
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:34.046
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:34.198
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:34.207
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:34.346
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:34.359
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:34.480
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:34.497
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:45.674
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:45.682
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:46.094
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:46.111
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:46.493
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:46.509
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:46.660
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:46.677
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:47.109
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:47.125
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:47.551
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:47.566
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:47.979
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:47.996
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:48.142
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:48.158
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:48.273
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:48.286
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:48.407
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:48.425
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:48.544
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:48.558
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:48.703
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:48.730
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:49.027
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:49.044
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:49.313
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:49.329
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:51.213
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:51.231
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:51.369
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:51.385
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:51.513
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:51.529
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:51.816
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:51.833
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:51.969
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:51.986
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:52.102
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:52.118
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:52.240
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:52.257
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:52.373
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:52.389
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:52.673
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:52.689
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:52.865
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:52.882
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:53.018
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:53.034
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:53.578
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:53.589
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:58.450
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:55:58.467
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:06.020
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:06.037
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:06.206
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:06.222
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:15.065
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:15.083
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:16.012
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:16.029
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:16.144
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:16.159
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:18.851
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:18.868
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:20.979
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:20.996
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:25.077
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:25.095
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:26.583
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:26.600
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:26.734
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:26.753
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:28.023
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:28.041
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:39.950
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:39.975
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:51.039
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:51.058
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:53.095
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:53.121
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:53.667
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:53.677
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:53.914
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:53.931
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:54.751
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:54.765
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:58.486
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:58.503
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:58.638
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:58.655
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:58.786
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:58.803
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:59.081
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:59.099
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:59.465
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:56:59.482
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:57:05.372
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:57:05.389
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:57:09.032
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:57:09.049
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:57:10.778
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:57:10.795
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:57:10.992
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:57:11.009
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:57:11.474
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:57:11.491
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:57:11.848
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:57:11.864
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:57:13.500
+!MESSAGE Creating 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:57:13.527
+!MESSAGE Committing 'null' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:57:19.867
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:57:19.887
+!MESSAGE Committing 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:57:20.202
+!MESSAGE Creating 'Validate diagram elements move' transaction.
+
+!ENTRY org.modelio.core 1 0 2015-03-29 22:57:20.219
+!MESSAGE Committing 'Validate diagram elements move' transaction.
