@@ -47,7 +47,7 @@ get_starting_state(State) :- initial_state(State, _).
 state_is_reflexive(State) :- transition(State, State, _, _, _).
 
 %% 13.
-
+%% graph_is_reflexive().
 
 %% 14.
 get_guards(Set) :- findall(Guard, transition(_, _, _, Guard, _), List), list_to_set(List, Set).
